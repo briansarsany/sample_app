@@ -2,8 +2,9 @@ common: &common
   adapter: postgresql
   encoding: unicode
   pool: 5
-  username: postgres
-  password: recsolu430
+  username: briansarsany
+  password:
+  host: 127.0.0.1
 
 development:
   <<: *common
