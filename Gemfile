@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
-
+#ruby '2.0.0'
 gem 'rails', '3.2.13'
+#gem 'rails', '4.0.0'
 gem 'pg',  '0.14.1'
 
 # Bundle edge Rails instead:
@@ -29,6 +30,7 @@ gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '1.1.2'
+  #gem 'capybara', '2.1.0'
   gem 'factory_girl_rails'
   # System-dependent gems
   gem 'rb-fsevent', '0.9.1', :require => false
@@ -49,3 +51,6 @@ end
 
 # To use debugger
 # gem 'debugger'
+
+
+gem 'bootstrap-sass', '2.3.2.0'
